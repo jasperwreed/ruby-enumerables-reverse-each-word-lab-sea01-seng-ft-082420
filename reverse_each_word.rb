@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   array_sentence.collect do |rev|
     rev_sent = rev.reverse()
   end
-  return rev_sent.join()
+  rev_sent
 end
